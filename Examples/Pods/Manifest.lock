@@ -1,12 +1,15 @@
 PODS:
   - Kingfisher (3.5.2)
+  - Whirligig (0.0.2):
+    - Kingfisher (~> 3.5.2)
 
 DEPENDENCIES:
-  - Kingfisher (~> 3.5.2)
+  - Whirligig
 
 SPEC CHECKSUMS:
   Kingfisher: 9950e382c500b6834ce004c7c4131c444e90c3a1
+  Whirligig: 7866b2a192b762a78850f0f5c9d05f42ffafc68a
 
-PODFILE CHECKSUM: 1db68db54aff31fba3a8c416672bde737d11895d
+PODFILE CHECKSUM: cbf7c29f8c8d3ceb9a95a19fa6822bc239a5e025
 
 COCOAPODS: 1.2.0

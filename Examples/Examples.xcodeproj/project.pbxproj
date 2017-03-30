@@ -13,8 +13,6 @@
 		3721418B1E8CE19200E8A978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372141891E8CE19200E8A978 /* Main.storyboard */; };
 		3721418D1E8CE19200E8A978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3721418C1E8CE19200E8A978 /* Assets.xcassets */; };
 		372141901E8CE19200E8A978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3721418E1E8CE19200E8A978 /* LaunchScreen.storyboard */; };
-		3721419F1E8CE90600E8A978 /* WhirligigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3721419D1E8CE90600E8A978 /* WhirligigView.swift */; };
-		372141A01E8CE90600E8A978 /* WVCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3721419E1E8CE90600E8A978 /* WVCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +24,6 @@
 		3721418C1E8CE19200E8A978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3721418F1E8CE19200E8A978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		372141911E8CE19200E8A978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3721419D1E8CE90600E8A978 /* WhirligigView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhirligigView.swift; sourceTree = "<group>"; };
-		3721419E1E8CE90600E8A978 /* WVCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WVCollectionView.swift; sourceTree = "<group>"; };
 		AFE63545D6954BD89C9A7F6C /* Pods-Examples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Examples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Examples/Pods-Examples.debug.xcconfig"; sourceTree = "<group>"; };
 		E384D5823BCBEA6FBD55515D /* Pods-Examples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Examples.release.xcconfig"; path = "Pods/Target Support Files/Pods-Examples/Pods-Examples.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,7 +43,6 @@
 		372141791E8CE19200E8A978 = {
 			isa = PBXGroup;
 			children = (
-				3721419C1E8CE90600E8A978 /* Whirligig */,
 				372141841E8CE19200E8A978 /* Examples */,
 				372141831E8CE19200E8A978 /* Products */,
 				4D84400E304926B089685A1C /* Pods */,
@@ -74,16 +69,6 @@
 				372141911E8CE19200E8A978 /* Info.plist */,
 			);
 			path = Examples;
-			sourceTree = "<group>";
-		};
-		3721419C1E8CE90600E8A978 /* Whirligig */ = {
-			isa = PBXGroup;
-			children = (
-				3721419D1E8CE90600E8A978 /* WhirligigView.swift */,
-				3721419E1E8CE90600E8A978 /* WVCollectionView.swift */,
-			);
-			name = Whirligig;
-			path = ../Whirligig;
 			sourceTree = "<group>";
 		};
 		4D84400E304926B089685A1C /* Pods */ = {
@@ -228,9 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				372141881E8CE19200E8A978 /* ViewController.swift in Sources */,
-				372141A01E8CE90600E8A978 /* WVCollectionView.swift in Sources */,
 				372141861E8CE19200E8A978 /* AppDelegate.swift in Sources */,
-				3721419F1E8CE90600E8A978 /* WhirligigView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,11 +8,11 @@
 
 import UIKit
 
-typealias WCVFetchItemClosure = (_ idx: Int)-> String
-typealias WCVChangeItemClosure = (_ idx: Int)-> Void
-typealias WCVDraggingClosure = (_ isDragging: Bool)->Void
+public typealias WCVFetchItemClosure = (_ idx: Int)-> String
+public typealias WCVChangeItemClosure = (_ idx: Int)-> Void
+public typealias WCVDraggingClosure = (_ isDragging: Bool)->Void
 
-class WhirligigView: UIView {
+public class WhirligigView: UIView {
     
     private let collectionView: WVCollectionView!
     
@@ -37,14 +37,14 @@ class WhirligigView: UIView {
         makeUI()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         collectionView = WVCollectionView.defaultCollectionView()
         
         super.init(coder: aDecoder)
         makeUI()
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         collectionView.reloadData()
         super.layoutSubviews()
         collectionView.scrollToPage(at: collectionView.currentPage)
@@ -127,7 +127,7 @@ class WhirligigView: UIView {
         collectionView.autoScrollToPage(at: self.collectionView.currentPage + 1)
     }
     
-    override func removeFromSuperview() {
+    override public func removeFromSuperview() {
         super.removeFromSuperview()
         timer?.invalidate()
     }

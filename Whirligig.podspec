@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/guloooo128/Whirligig.git", :tag => "#{s.version}" }
   s.source_files = 'Whirligig/*.swift'
   s.requires_arc = true
-  s.dependency  'Kingfisher', '~> 3.5.2'
+  s.dependency  'Kingfisher', '~> 3.10.1'
 end

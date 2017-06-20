@@ -1,0 +1,6 @@
+framework module Whirligig {
+  umbrella header "Whirligig-umbrella.h"
+
+  export *
+  module * { export * }
+}
